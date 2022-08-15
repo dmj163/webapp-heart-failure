@@ -3,5 +3,5 @@ joblib==1.1.0
 shap==0.39.0
 matplotlib==3.4.3
 LightGBM==3.2.1
-numpy==1.22.4
+numpy==1.22
 scikit-learn==1.0
