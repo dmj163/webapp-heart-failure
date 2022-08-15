@@ -39,7 +39,7 @@ def predict_quality(model, df):
 
 
 # 导入模型
-model = joblib.load('save/lgb_death_less.pkl')
+model = joblib.load('lgb_death_less.pkl')
 
 st.sidebar.title("Features")
 
