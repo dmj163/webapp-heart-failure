@@ -41,7 +41,7 @@ def predict_quality(model, df):
 
 
 # 导入模型
-model = joblib.load('save/lgb_outcome_less.pkl')
+model = joblib.load('lgb_outcome_less.pkl')
 st.sidebar.title("Features")
 
 # 设置各项特征的输入范围和选项
