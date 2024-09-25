@@ -32,7 +32,9 @@ def option_name(x):
         return "no"
     if x == 1:
         return "yes"
-@st.cache
+
+
+
 def predict_quality(model, df):
     y_pred = model.predict_proba(df)
     return y_pred[:, 1]
